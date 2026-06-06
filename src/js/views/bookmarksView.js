@@ -24,7 +24,7 @@ class BookmarksView extends View {
                 <p class="preview__publisher">${bookmarked.publisher}</p>
                 <div class="preview__user-generated ${bookmarked.key ? '' : 'hidden'}">
                     <svg>
-                      <use href="${icons}.svg#icon-user"></use>
+                      <use href="${icons}#icon-user"></use>
                     </svg>
                 </div>
               </div>
