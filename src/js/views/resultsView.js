@@ -1,6 +1,5 @@
 import View from './view';
-import icons from 'url:../../../public/img/icons.svg';
-
+import icons from 'url:../../img/icons.svg';
 class ResultsView extends View {
   _parentEl = document.querySelector('.results');
   _messageErr = 'No recipes found for your query ! Please try again ;)';
